@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Palette Display</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .palette {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .color-box {
+      width: 150px;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+      color: #fff;
+    }
+    .color-box span {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+ <u><h1>Color Palette</h1></u>
+  <div class="palette">
+    <!-- RGB Color -->
+    <div class="color-box" style="background-color: rgb(92, 30, 19);">
+      <span>rgb(92, 30, 19)</span>
+    </div>
+    <!-- RGBA Color -->
+    <div class="color-box" style="background-color: rgba(81, 6, 98);">
+      <span> rgba(81, 6, 98)</span>
+    </div>
+    <!-- HSL Color -->
+    <div class="color-box" style="background-color: hsl(58, 90%, 19%);">
+      <span> hsl(58, 90%, 19%)</span>
+    </div>
+    <!-- HSLA Color -->
+    <div class="color-box" style="background-color: HSLA(120, 100%, 10%, 20);">
+      <span>HSLA(120, 100%, 10%, 20)</span>
+    </div>
+  </div>
+</body>
+</html>
