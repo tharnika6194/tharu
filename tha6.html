@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Product Gallery</title>
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 200px);
+            grid-template-rows: repeat(1, 200px);
+            gap: 10px;
+            width: 220px; /* Adjust based on item size */
+        }
+        .item {
+            background-color: rgb(250, 74, 74);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+        <h1 text align="center"><u>SEVEN WONDER OF WORLD</u></h1>
+    <div class="gallery-grid">
+        <div class="item"> Great Wall of China</div>
+        <div class="item">Petra</div>
+        <div class="item">Christ the Redeemer</div>
+        <div class="item">Machu Picchu</div>
+        <div class="item">Chichen Itza</div>
+        <div class="item">Roman Colosseum</div>
+        <div class="item">Taj Mahal, India</div>
+    </div>
+</body>
+</html>
