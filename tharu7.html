@@ -5,10 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exam Registration</title>
+    <style>
+         body {
+      margin: 10;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background: linear-gradient(to bottom, #ef347f, #fe7bc5);
+      color: #fff;
+      text-align: center;
+    }
+
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Exam Registration</h1>
+     <div class="container">
+        <h1> Registration</h1>
         <form action="/submit_registration" method="POST">
             <!-- Full Name -->
             <label for="fullName">Full Name:</label>
@@ -22,14 +32,13 @@
             <label for="phone">Phone Number:</label>
             <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
             <br><br><br>
+
             <!-- Course Selection -->
-            <label for="course">Select Course:</label>
-            <select id="course" name="course" required>
-                <option value="">--Select a Course--</option>
-                <option value="webDevelopment">Web Development</option>
-                <option value="dataScience">Data Science</option>
-                <option value="ai">Artificial Intelligence</option>
-                <option value="cyberSecurity">Cyber Security</option>
+            <label for="Tickets">Select Tickets packages:</label>
+            <select id="Tickets" name="Tickets" required>
+                <option value="">--Select Tickets packages--</option>
+                <option value="General Admission">General Admission</option>
+                <option value="VIP package">VIP package</option>
             </select>
             <br><br><br>
             <!--Gender-->
@@ -41,7 +50,7 @@
             </select>
             <br><br><br>
             <!-- Submit Button -->
-            <button type="file:///C:/Users/pnare/sample.html">register</button>
+             <a href="s.html">Submit</a>
         </form>
     </div>
 </body>
