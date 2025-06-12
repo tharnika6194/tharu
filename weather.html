@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+         background: linear-gradient(135deg, #a2d2ff, #efb1ff);
+    color:rgb(6, 6, 6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      font-family: Arial, sans-serif;
+      margin:100;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .team-section {
+      margin: 20px;
+    }
+    .team-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(236, 152, 152, 0.892);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover {
+    transform: scale(1.06);
+}
+    .team-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .team-card h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+
+    .team-card p {
+      margin: 0;
+      font-size: 14px;
+      color: black;
+    }
+    </style>
+</head>
+<body>
+     <h1 text align="center"><u>WEATHER CARD</u></h1>
+  <section class="team-section">
+    <div class="team-card">
+      <img src="https://th.bing.com/th/id/OLC.4uUi1rSC9lsvJA480x360?&rs=1&pid=ImgDetMain" alt="Marina Beach">
+      <h3>CHENNAI</h3>
+      <p>it's light rain showers with a temperature of 30°C</p>
+    </div><br><br>
+    <div class="team-card">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.v_uTk6PWS3pwXP7xPn2zOwHaE8?rs=1&pid=ImgDetMain" alt="TOKYO">
+      <h3>TOKYO</h3>
+      <p>it's mostly cloudy with a temperature of 21°C.</p>
+    </div><br><br>
+    <div class="team-card">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.EG3oclrWp342rkAgn5j11AHaE7?rs=1&pid=ImgDetMain" alt="France">
+      <h3>France</h3>
+      <p>it's mostly sunny with a temperature of 31°C.</p>
+    </div><br><br>
+    <div class="team-card">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.aRIbnzKTydtNAneqt27XGAHaE7?rs=1&pid=ImgDetMain" alt="Canada">
+      <h3>Canada</h3>
+      <p>it's sunny with a temperature of 17°C.</p>
+    </div>
+</body>
+</html>
